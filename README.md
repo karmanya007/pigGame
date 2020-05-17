@@ -1,4 +1,4 @@
-# pigGame
+# Pig Game
 Interactive pig Game
 
 ## RULES
