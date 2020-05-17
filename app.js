@@ -28,8 +28,7 @@ document.querySelector('.btn-roll').addEventListener('click', function () {
 		var dice = Math.floor(Math.random() * 6) + 1;
 		//Displaying the dice image according to the random number
 		diceDOM.style.display = 'block';
-		diceDOM.src = '/img/dice-' + dice + '.png';
-
+		diceDOM.src = 'img/dice-' + dice + '.png';
 		// Checking the number if it = 1
 
 		if (dice !== 1) {
